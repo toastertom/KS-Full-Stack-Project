@@ -1,0 +1,29 @@
+{
+  "name": "ks-full-stack-project",
+  "version": "1.0.0",
+  "description": "memorial blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toastertom/KS-Full-Stack-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toastertom/KS-Full-Stack-Project/issues"
+  },
+  "homepage": "https://github.com/toastertom/KS-Full-Stack-Project#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "massive": "^2.5.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1"
+  }
+}
